@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WebGIS Viewer - Muretti a secco</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar" role="banner">
+    <div class="topbar-title-wrap">
+      <h1 class="topbar-title">WebGIS per la mappatura e il monitoraggio dei Muretti a Secco</h1>
+    </div>
+    <div class="topbar-logos" aria-label="Loghi progetto">
+      <img class="topbar-logo" src="./data/loghi/LOGO-AFG.png" alt="Logo AFG" />
+      <img class="topbar-logo" src="./data/loghi/LOGO-CETMA.png" alt="Logo CETMA" />
+    </div>
+    <div class="topbar-actions" aria-label="Azioni rapide">
+      <button class="icon-btn" type="button" aria-label="Home mappa" title="Home mappa">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M3 11.5L12 4l9 7.5v8a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/>
+        </svg>
+      </button>
+      <button id="layers-toggle-btn" class="icon-btn" type="button" aria-label="Livelli" title="Nascondi livelli" aria-pressed="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M12 3l9 4.5-9 4.5-9-4.5zm0 8.5l9 4.5-9 4.5-9-4.5zm0 8.5l9-4.5v1L12 22l-9-4.5v-1z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "name": "muretti",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "titolo": "Muretto A (pessimo)",
+        "stato": "pessimo",
+        "note": "Struttura gravemente compromessa o totalmente crollata, con perdita della funzione originaria, frequentemente dovuta a crolli strutturali, interventi incongrui o abbandono prolungato.",
+        "foto": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Dry_stone_wall.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.125713175972265,
+            40.00307272619858
+          ],
+          [
+            18.125687057961045,
+            40.00317419233269
+          ],
+          [
+            18.125649533161265,
+            40.00327669706596
+          ],
+          [
+            18.12558593885703,
+            40.00336726092431
+          ],
+          [
+            18.125502545406846,
+            40.003449609077734
+          ],
+          [
+            18.125387328898626,
+            40.00353701989539
+          ],
+          [
+            18.12527936115856,
+            40.003611488408325
+          ],
+          [
+            18.12515849780175,
+            40.003659568092075
+          ],
+          [
+            18.124969740758473,
+            40.00373022798615
+          ],
+          [
+            18.124767498653455,
+            40.00380450168177
+          ],
+          [
+            18.12459306015856,
+            40.00386534939517
+          ],
+          [
+            18.12444734177484,
+            40.00388857780263
+          ],
+          [
+            18.1242014984237,
+            40.00391190962199
+          ],
+          [
+            18.124002030047706,
+            40.00392478860226
+          ],
+          [
+            18.123591999191206,
+            40.00394943354124
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "titolo": "Muretto B (mediocre)",
+        "stato": "mediocre",
+        "note": "Struttura caratterizzata da cedimenti parziali, disallineamenti delle pietre o perdita locale di ammorsamento, spesso associati a interventi impropri o assenza di manutenzione."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.125250047308185,
+            40.00374011926948
+          ],
+          [
+            18.124906632348655,
+            40.003872623003616
+          ],
+          [
+            18.12468213466198,
+            40.00395908347775
+          ],
+          [
+            18.124545721704266,
+            40.00397869532418
+          ],
+          [
+            18.124369447695415,
+            40.004010350288326
+          ],
+          [
+            18.12421939177642,
+            40.004022443137444
+          ],
+          [
+            18.123953450405537,
+            40.00403924530437
+          ],
+          [
+            18.12362180912612,
+            40.00405753967209
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "titolo": "Muretto C (buono)",
+        "stato": "buono",
+        "note": "Struttura integra e stabile, priva di dissesti strutturali significativi, ma interessata da interventi di ripristino o manutenzione non pienamente conformi ai canoni costruttivi tradizionali della pietra a secco."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.125948835677463,
+            40.00331445990574
+          ],
+          [
+            18.12570787358723,
+            40.003485491340655
+          ],
+          [
+            18.12551333538522,
+            40.003607414477926
+          ],
+          [
+            18.12534532511981,
+            40.003709016926706
+          ],
+          [
+            18.1253099545371,
+            40.003756431350524
+          ],
+          [
+            18.125296690569343,
+            40.0038140059641
+          ],
+          [
+            18.125278619823007,
+            40.00386544473079
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "titolo": "Muretto D (ottimo)",
+        "stato": "ottimo",
+        "note": "Struttura integra, stabile e correttamente ammorsata, oppure recentemente ristrutturata secondo i canoni costruttivi tradizionali della pietra a secco e nel rispetto dei criteri di tutela paesaggistica.",
+        "stroke": "#d7191c",
+        "stroke-width": 5,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.127760139693834,
+            40.003015678492545
+          ],
+          [
+            18.127563344203708,
+            40.00301938539644
+          ],
+          [
+            18.127300412522345,
+            40.00305027625524
+          ],
+          [
+            18.127037480842432,
+            40.00310464413306
+          ],
+          [
+            18.126742287605055,
+            40.00315159817484
+          ],
+          [
+            18.126464838225587,
+            40.00319360965818
+          ],
+          [
+            18.126234168100268,
+            40.00322820733126
+          ],
+          [
+            18.12595671871935,
+            40.003309758919244
+          ]
+        ]
+      }
+    }
+  ]
+}

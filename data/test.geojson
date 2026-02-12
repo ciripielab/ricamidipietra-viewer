@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 10
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-10, 35],
+          [30, 60]
+        ]
+      }
+    }
+  ]
+}
