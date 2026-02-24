@@ -87,6 +87,23 @@ body {
   max-width: 320px;
 }
 
+.poi-div-icon {
+  background: transparent;
+  border: 0;
+}
+
+.poi-dot {
+  --poi-size: 14px;
+  --poi-color: #3388ff;
+  width: var(--poi-size);
+  height: var(--poi-size);
+  display: block;
+  border-radius: 50%;
+  background: var(--poi-color);
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.35);
+}
+
 @media (max-width: 900px) {
   .topbar {
     height: 64px;

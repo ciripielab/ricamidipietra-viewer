@@ -91,12 +91,22 @@ function onEachMuretto(feature, layer) {
   layer.on("mouseout", () => layer.setStyle(stileMuretti(feature)));
 }
 
-// 6) Stile POI (circle marker)
+// 6) Stile POI (marker custom)
 function poiToLayer(feature, latlng) {
-  return L.circleMarker(latlng, {
-    radius: 7,
-    weight: 1,
-    fillOpacity: 0.9
+  const sizeFromData = Number(feature?.properties?.size);
+  const colorFromData = String(feature?.properties?.color || "").trim();
+  const markerColor = colorFromData || "#3388ff";
+  const diameter = Number.isFinite(sizeFromData) && sizeFromData > 0 ? sizeFromData : 14;
+  const iconSize = diameter + 8;
+
+  return L.marker(latlng, {
+    icon: L.divIcon({
+      className: "poi-div-icon",
+      html: `<span class="poi-dot" style="--poi-size:${diameter}px;--poi-color:${markerColor};"></span>`,
+      iconSize: [iconSize, iconSize],
+      iconAnchor: [iconSize / 2, iconSize / 2],
+      popupAnchor: [0, -iconSize / 2]
+    })
   });
 }
 
@@ -115,6 +125,12 @@ function onEachPoi(feature, layer) {
        </p>`
     : "";
 
+  const data = p.data
+    ? `<p style="margin:8px 0 0 0;">
+         <a href="${p.data}" target="_blank" rel="noopener">Apri cartella Drive</a>
+       </p>`
+    : "";
+
   const img = p.immagine
     ? `<p style="margin:8px 0 0 0;">
          <img src="${p.immagine}" alt="" style="width:100%;border-radius:10px"/>
@@ -126,6 +142,7 @@ function onEachPoi(feature, layer) {
     ${contenuto}
     ${img}
     ${link}
+    ${data}
   `);
 }
 
