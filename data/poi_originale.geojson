@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "name": "poi",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "poi-1",
+        "titolo": "Punto di osservazione",
+        "descrizione": "Da qui si vede bene un tratto di muretto con frana a valle.",
+        "categoria": "osservazione",
+        "link": "https://it.wikipedia.org/wiki/Muro_a_secco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.124869619703077, 40.0036314615154]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "poi-2",
+        "titolo": "Intervento consigliato",
+        "descrizione": "Suggerita pulizia vegetazione e riposizionamento di alcune pietre.",
+        "categoria": "intervento",
+        "immagine": "https://i0.wp.com/pugliasera.it/wp-content/uploads/2024/01/contentuploads20230920230901murettiasecco.jpg?w=800&ssl=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.124178577000066, 40.00414688928885]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "poi-3",
+        "titolo": "Area manutenzione periodica",
+        "descrizione": "Zona controllata annualmente. Stato generalmente buono.",
+        "categoria": "manutenzione"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.12584003741307, 40.00364066643792]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "poi-4",
+        "titolo": "Tratto restaurato",
+        "html": "<p><b>Restauro completato</b>.<br>Materiale originale, posa tradizionale.</p><p><a target='_blank' rel='noopener' href='https://www.afgformazione.com/nelcuoredeimestieriricamidipietra'>Approfondisci</a></p>",
+        "categoria": "info"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.127129439282214, 40.00328594468053]
+      }
+    }
+  ]
+}

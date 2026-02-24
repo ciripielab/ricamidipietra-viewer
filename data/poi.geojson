@@ -1,60 +1,91 @@
 {
   "type": "FeatureCollection",
-  "name": "poi",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "id": "poi-1",
         "titolo": "Punto di osservazione",
-        "descrizione": "Da qui si vede bene un tratto di muretto con frana a valle.",
+        "color": "#3388ff",
+        "id": "poi-1",
         "categoria": "osservazione",
-        "link": "https://it.wikipedia.org/wiki/Muro_a_secco"
+        "size": 20,
+        "link": "https://it.wikipedia.org/wiki/Muro_a_secco",
+        "data": "https://drive.google.com/drive/folders/1_q1xpVjTWZtsLkKBe_8lIxw3k_PLYxMO",
+        "immagine": "",
+        "descrizione": "Da qui si vede bene un tratto di muretto con frana a valle."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [18.124869619703077, 40.0036314615154]
+        "coordinates": [
+          18.124877,
+          40.003627
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "poi-2",
         "titolo": "Intervento consigliato",
-        "descrizione": "Suggerita pulizia vegetazione e riposizionamento di alcune pietre.",
+        "color": "#d08549",
+        "id": "poi-2",
         "categoria": "intervento",
-        "immagine": "https://i0.wp.com/pugliasera.it/wp-content/uploads/2024/01/contentuploads20230920230901murettiasecco.jpg?w=800&ssl=1"
+        "size": 20,
+        "link": "",
+        "data": "https://drive.google.com/drive/folders/1_q1xpVjTWZtsLkKBe_8lIxw3k_PLYxMO",
+        "immagine": "https://i0.wp.com/pugliasera.it/wp-content/uploads/2024/01/contentuploads20230920230901murettiasecco.jpg?w=800&ssl=1",
+        "descrizione": "Suggerita pulizia vegetazione e riposizionamento di alcune pietre."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [18.124178577000066, 40.00414688928885]
+        "coordinates": [
+          18.124132,
+          40.004178
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "poi-3",
         "titolo": "Area manutenzione periodica",
-        "descrizione": "Zona controllata annualmente. Stato generalmente buono.",
-        "categoria": "manutenzione"
+        "color": "#f500ed",
+        "id": "poi-3",
+        "categoria": "manutenzione",
+        "size": 20,
+        "link": "",
+        "data": "https://drive.google.com/drive/folders/1_q1xpVjTWZtsLkKBe_8lIxw3k_PLYxMO",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/2/2e/3.-Pedra_en_sec_%2826051155523%29.jpg",
+        "descrizione": "Zona controllata annualmente. Stato generalmente buono."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [18.12584003741307, 40.00364066643792]
+        "coordinates": [
+          18.125677,
+          40.003773
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "poi-4",
         "titolo": "Tratto restaurato",
-        "html": "<p><b>Restauro completato</b>.<br>Materiale originale, posa tradizionale.</p><p><a target='_blank' rel='noopener' href='https://www.afgformazione.com/nelcuoredeimestieriricamidipietra'>Approfondisci</a></p>",
-        "categoria": "info"
+        "color": "#4dec13",
+        "id": "poi-4",
+        "categoria": "info",
+        "size": 20,
+        "link": "https://www.afgformazione.com/nelcuoredeimestieriricamidipietra",
+        "data": "https://drive.google.com/drive/folders/1_q1xpVjTWZtsLkKBe_8lIxw3k_PLYxMO",
+        "immagine": "",
+        "descrizione": "Restauro completato. Materiale originale, posa tradizionale."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [18.127129439282214, 40.00328594468053]
+        "coordinates": [
+          18.127077,
+          40.003305
+        ]
       }
     }
-  ]
+  ],
+  "name": "webgis_export",
+  "exportedAt": "2026-02-17T10:40:52.601Z"
 }
